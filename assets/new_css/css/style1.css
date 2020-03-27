@@ -1,0 +1,52 @@
+
+#search_form {
+	margin-bottom: 0;
+}
+.github-star {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+}
+
+#carbonads {
+	position: absolute;
+	top: 100%;
+	top: calc(100vh - 15em);
+	right: 1em;
+	max-width: 10em;
+	max-width: -webkit-min-content;
+	max-width: min-content;
+	font-size: 75%;
+}
+
+	#carbonads a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	#carbonads img {
+		display: block;
+	}
+
+#combobox .dropdown-input {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+#combobox .dropdown-btn {
+	vertical-align: top;
+	height: 36.5px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+#combobox .caret {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle;
+	border-top: 4px dashed;
+	border-top: 4px solid;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+}

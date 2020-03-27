@@ -1,0 +1,50 @@
+body{
+	font-size:16px !important;
+}
+.listing a {
+    color: #666;
+    display: block;
+    font-size: 16px !important;
+}
+.cd-dropdown {
+	left: auto !important;
+}
+.cd-dropdown-content .cd-secondary-dropdown, .cd-dropdown-content .cd-dropdown-gallery, .cd-dropdown-content .cd-dropdown-icons{
+	right: 280px;
+}
+span{ font-size:18px !important; }
+.n-right li a{
+	font-size:18px !important;
+}
+ul li {
+    font-size: 18px;
+}
+button, input, optgroup, select, textarea {
+    font-size: 20px;
+}
+.goog-te-gadget-simple .goog-te-menu-value span {
+    text-decoration: none;
+    font-size: 14px !important;
+    font-weight: 400;
+}
+.mix_tab_back {
+    font-size: 16px !important;
+}
+.part_details h5 small {
+    font-size: 18px;
+}
+.arb_country{
+	padding: 0 !important;
+    font-size: 15px;
+    font-family: monospace;
+}
+.details_fix_img_cat_pro img {    
+    max-width: 97% !important;
+}
+.thumb_img_set{
+	padding:0 !important;
+}
+.thumb_img_set img {
+    max-width: 90%;
+    margin-right: -5px;
+}

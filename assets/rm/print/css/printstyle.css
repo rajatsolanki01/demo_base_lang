@@ -1,0 +1,63 @@
+/* main styles */
+body {
+	margin:0;
+	padding:0;
+	background:#fff;
+  	color:#000;
+	font-size:11px;
+	}
+
+.butto
+{
+	width:40px;
+	height:25px; 
+	text-align:center;
+	color:#fff;
+	text-transform:capitalize;
+	font-weight:bold;
+	background:url(../images/button.png) no-repeat;
+	border:none;
+	text-decoration:none;
+}
+.butto a
+{
+	width:40px;
+	height:25px; 
+	color:#fff;
+	text-transform:capitalize;
+	text-decoration:none;
+}
+.left_detail
+{
+	font-size:12px;
+	color:#000;
+	text-align:left;
+	padding-bottom:6px; 
+	padding-top:6px;
+	margin-left:10px;
+	vertical-align:top;
+}
+.text_bold{
+font-weight:bold;
+color:#000;
+text-align:left;
+}
+
+.site_link a{
+text-decoration:none;
+color:#08424d;
+padding:5px 0 5px 0;
+font-size:14px;
+font-weight:bold;
+}
+
+.nor_frm_name 
+{
+	
+	font-size:18px;
+	font-weight:bold;
+	color:#08424d;
+	text-decoration:none;
+	text-align:center;
+	text-transform:capitalize;
+}

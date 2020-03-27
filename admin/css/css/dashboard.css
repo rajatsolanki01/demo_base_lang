@@ -1,0 +1,463 @@
+/*body{
+	background-color:#FFF;
+}*/
+
+/* start dashboard */
+
+.dashboard_menu_wrapper {
+	margin: -15px 0 0 0;
+}
+
+.dashboard_menu {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 0 0px 0;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.page-header {
+	font-size: 22px;
+	float: left;
+}
+
+.dashboard_menu li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 103px;
+	height: 101px;
+	background:url(layout/site/dashboard_li.gif) no-repeat 0 0;
+	float: left;
+	margin: 15px 15px 0 0;
+}
+
+.dashboard_menu li:hover {
+	background-position: 0 -101px;
+}
+
+.dashboard_menu a:link,
+.dashboard_menu a:visited,
+.dashboard_menu a:active
+  {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: 33px 10px;
+	color: #2e738c;
+	
+}
+
+.table-new td{
+	padding:10px;
+}
+
+.dashboard_menu a:hover {
+	color: #0590c2;
+}
+
+.dashboard_menu span {
+	display: block;
+	padding: 110px 7px 10px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.bor-1 {
+    border: 1px solid #EBEBEB;
+	height: 155px;
+	background:#fff;
+	 margin-bottom: 20px;
+}
+
+.set-btn {
+    margin: 10px 0;
+}
+
+/*.last {
+    width: 185px;
+}*/
+
+/*.page-header {
+	margin-bottom:20px;
+}*/
+
+.bor-1 a {
+	text-decoration: none;
+}
+
+.bor-1:hover {
+	box-shadow: 1px 1px 2px;
+}
+
+
+.d1 {
+	background:url(layout/site/dasboard_icons/1471087064_tools.png);
+	 background-size: 84px 84px;
+
+}
+.d2 {
+	background-image:url(layout/site/dasboard_icons/1471091362_profle.png);
+	background-size: 84px 84px;
+}
+.d3 {
+	background-image:url(layout/site/dasboard_icons/1471091589_customer-support.png);
+	background-size: 84px 84px;
+}
+.d4 {
+	background-image:url(layout/site/dasboard_icons/1471091752_Location.png);
+	background-size: 84px 84px;
+}
+.d5 {
+	background-image:url(layout/site/dasboard_icons/1471091832_bug-spider-tools.png);
+	background-size: 84px 84px;
+}
+
+.d5-1 {
+	background-image:url(layout/site/dasboard_icons/1471091966_magnifier.png);
+	background-size: 84px 84px;
+}
+
+.d51{
+	background-image:url(layout/site/dasboard_icons/Excel_Export.png);
+	background-size: 84px 84px; 
+}
+.d52{
+	background-image:url(layout/site/dasboard_icons/Excel_Import.png);
+	background-size: 84px 84px;
+}
+.d61{
+	background-image:url(layout/site/dasboard_icons/Currency_Management.png);
+	background-size: 84px 84px;
+}
+.d62{
+	background-image:url(layout/site/dasboard_icons/Social_Management.png);
+	background-size: 84px 84px;
+}
+.d63{
+	background-image:url(layout/site/dasboard_icons/Google_Management.png);
+	background-size: 84px 84px;
+}
+.d64{
+	background-image:url(layout/site/dasboard_icons/Logo_Management.png);
+	background-size: 84px 84px;
+}
+.d65{
+	background-image:url(layout/site/dasboard_icons/Member_Package_Management.png);
+	background-size: 84px 84px;
+	
+}
+.d65{
+	background-image:url(layout/site/dasboard_icons/Member_Package_Management.png);
+	background-size: 84px 84px;
+}
+.d66{
+	background-image:url(layout/site/dasboard_icons/Company_Statistics.png);
+	background-size: 84px 84px;
+}
+
+.d67{
+	background-image:url(layout/site/dasboard_icons/User_Statistics.png);
+	background-size: 84px 84px;
+}
+.d68{
+	background-image:url(layout/site/dasboard_icons/News.png);
+	background-size: 84px 84px;
+}
+
+.d69{
+	background-image:url(layout/site/dasboard_icons/Trade_Shows_Manage.png);
+	background-size: 84px 84px;
+}
+
+.d70{
+	background-image:url(layout/site/dasboard_icons/Success_Stories.png);
+	background-size: 84px 84px;
+}
+
+.d71{
+	background-image:url(layout/site/dasboard_icons/Advertisements_Enquries.png);
+	background-size: 84px 84px;
+}
+.d72{
+	background-image:url(layout/site/dasboard_icons/staff.png);
+	background-size: 84px 84px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.d6 {
+	background-image:url(layout/site/dasboard_icons/1471092572_Gmail.png);
+	background-size: 84px 84px;
+}
+.d7 {
+	background-image:url(layout/site/dasboard_icons/Ads_Management.png);
+	background-size: 84px 84px;
+}
+.d8 {
+	background-image:url(layout/site/dasboard_icons/Payment_Management.png);
+	background-size: 84px 84px;
+}
+.d9 {
+	background-image:url(layout/site/dasboard_icons/Inquiry_Box.png);
+	background-size: 84px 84px;
+}
+.d10 {
+	background-image:url(layout/site/dasboard_icons/category.png);
+	background-size: 84px 84px;
+}
+.d11 {
+	background-image:url(layout/site/dasboard_icons/Approval_Center.png);
+	background-size: 84px 84px;
+}
+.d12 {
+	background-image:url(layout/site/dasboard_icons/trade.png);
+	background-size: 84px 84px;
+}
+.d13 {
+	background-image:url(layout/site/dasboard_icons/Products_Management.png);
+	background-size: 84px 84px;
+}
+.d14 {
+	background-image:url(layout/site/dasboard_icons/classified.png);
+	background-size: 84px 84px;
+}
+
+.d15 {
+	background-image:url(layout/site/dasboard_icons/home.png);
+	background-size: 84px 84px;
+}
+.d17 {
+	background-image:url(layout/site/dasboard_icons/job.png);
+	background-size: 84px 84px;
+}
+.d16 {
+	background-image:url(layout/site/dasboard_icons/Static_Page_Creator.png);
+	background-size: 84px 84px;
+}
+.table_wrapper {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 11px;
+	
+}
+
+.table_wrapper_inner {
+	
+}
+
+.table_wrapper td, .table_wrapper th {
+	/* border: solid #d3e5ed; */
+	border-width: 0 1px 1px 0;
+}
+
+.table_wrapper th {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.table_wrapper th a:link, .table_wrapper th a:visited, .table_wrapper th a:hover, .table_wrapper th a:active {
+	color: #1f476f;
+	display: block;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding: 0 16px 0 0;
+}
+
+.approved {
+	display: block;
+	display: inline-block;
+	padding: 0 20px 0 0;
+	background:url(layout/site/tables/approved.gif) no-repeat right center;
+}
+
+.pending {
+	display: block;
+	display: inline-block;
+	padding: 0 20px 0 0;
+	background:url(layout/site/tables/pending.gif) no-repeat right center;
+	color: #b86464;
+}
+
+.asc {
+	background-image:url(layout/site/tables/asc.gif);
+}
+
+.desc {
+	background-image:url(layout/site/tables/desc.gif);
+}
+
+.table_wrapper td , .table_wrapper th {
+	text-align: left;
+	/*padding: 0 8px;*/
+	line-height: 26px;
+}
+
+.table_wrapper th {
+	
+}
+
+.table_wrapper td {
+	font-size:13px;
+	padding-right: 10px;
+	padding-left:10px;
+	/* background: #fefefe url(layout/site/tables/td_bg1.gif) repeat-x; */
+}
+
+.table_wrapper tr.second td {
+/*	background: #f3f9fb url(layout/site/tables/td_bg2.gif) repeat-x;*/
+}
+
+.actions {
+	width: 126px;
+	overflow: hidden;
+}
+
+.actions .radio {
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+	float: left;
+	
+}
+
+.actions ul {
+	margin: 0;
+	padding: 0;
+	width: 150px;
+}
+
+
+.actions ul li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0 11px 0 0;
+	list-style: none;
+	
+}
+
+.actions ul a:link, .actions ul a:visited, .actions ul a:hover, .actions ul a:active {
+	display: block;
+	width: 14px;
+	height: 13px;
+	text-indent: -3000px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+.action1 {
+	background-image:url(layout/site/tables/action1.gif);
+}
+.action2 {
+	background-image:url(layout/site/tables/action2.gif);
+}
+.action3 {
+	background-image:url(layout/site/tables/action3.gif);
+}
+.action4 {
+	background-image:url(layout/site/tables/action4.gif);
+}
+
+
+.table_section .sct_left .sct_left .sct_right {
+	/*padding: 0 2px;*/
+} 
+
+
+.table_section form, .table_section fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.table_menu {
+	width: 100%;
+	overflow: hidden;
+	padding: 5px 0 0;
+	margin: 0 0 -3px;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.table_menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+.table_menu .left {
+	float: left;
+	padding: 0 0 0 11px;
+}
+
+.table_menu .right {
+	float: right;
+	padding: 0 7px 0 0;
+}
+
+.table_menu li {
+	float: left;
+	margin: 0;
+	padding: 0 6px 0 0;
+	list-style: none;
+}
+.radius2{
+
+}
+
+.table-width{
+	border:none !important;
+	/*background: #e7f3f8 !important;*/
+}
+/* end dashboard */
+
+
+.last > a {
+    display: block;
+    margin: 5px;
+	float: left !important;
+}
+
+/*lates new */
+
+.star{
+	color:#F00;
+}
+
+.icon-size .fa {
+	font-size: 16px ;
+}
+.set-last{
+	width:230px;
+}
+.set-left-li li{
+	display:inline-block;
+}
+.set-width{
+	padding-left:10px;
+	width:110px;
+}
+
+.hello {
+	margin-bottom:15px;
+}
+
+
+.manten-th {
+    margin-left: 10px;
+}
